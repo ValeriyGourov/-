@@ -64,7 +64,7 @@ namespace MovieCatalogue
             //    ClientSecret = ""
             //});
 
-            SeedData.Initialize(ApplicationDbContext.Create());
+            //SeedData.Initialize(ApplicationDbContext.Create());
             //new MovieCatalogueInitializer().InitializeDatabase(ApplicationDbContext.Create());
         }
     }
